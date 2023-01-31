@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.0/moment.min.js"></script>
+
+    <title>Medium Project</title>
+</head>
+
+<!-----Navbar------>
+
+<div class="wrapper">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a href="#" id='logo' class="nav-link active"><i class="fa-brands fa-medium"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <input class="form-control mr-sm-2" id='nav-search' type="search" placeholder="Search"
+                            aria-label="Search">
+                    </li>
+                    <li class="nav-item ritem">
+                        <a href="#" class="nav-link active"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </li>
+                    <li class="nav-item ritem">
+                        <a href="#" class="nav-link active"><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                    <li class="nav-item ritem">
+                        <a href="#" class="nav-link active"><i class="fa-solid fa-circle-user"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">1</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Main Information-->
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="main-content">
+                    <div id="output">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- End div For Extra Information-->
+            <div class="container col-4 ">
+                <div class="extra-content position-sticky">
+                    <button class="access">Get premium access</button>
+                </div>
+
+                <aside id="Top-Posts">
+                    <h5> Top Posts </h5>
+                </aside>
+                <a href="#" id='more-txt'>More Posts</a>
+                <section class="social-media">
+                    <a href="#" class="social-logo"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="social-logo"><i class="fa-brands fa-medium"></i></a>
+                    <a href="#" class="social-logo"><i class="fa-brands fa-twitter"></i></a>
+                    <p> Discover more content by linking to twitter</p>
+                    <button id="twitter-btn"><i class="fa-brands fa-twitter"></i> Connect to Twitter</button>
+                    <a href="#" id="remind">Remind me later</a>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
