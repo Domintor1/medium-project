@@ -1,16 +1,17 @@
-Responsive Medium Clone
+<b> Responsive Medium Clone </b>
 
-LINK TO PROJECT SITE - https://medium-clone1.netlify.app/
+<b> LINK TO PROJECT SITE - </b>
+https://medium-clone1.netlify.app/
 
 Project building a responsive clone of the medium website from scratch
 
-Technologies used-
+<b> Technologies used- </b>
 
 - JavaScript
 - CSS
 - HTML
 
-Personal Notes-
+<b> Personal Notes- </b>
 
 1) The motivation behind this project was to look to improve my vanilla CSS skills. Cloning a relatively tricky design and having it be responsive without the help of external frameworks felt like good opportunity to do so.
 2) This project was helpful in manipulating elements positioning and sizing to mimic how those same elements were positioned in the website I was creating a replica of.
